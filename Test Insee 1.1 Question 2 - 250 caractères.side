@@ -1,0 +1,439 @@
+{
+  "id": "e6bb9e7f-55d1-4a1a-875a-994165484211",
+  "version": "2.0",
+  "name": "Test Insee 1.1",
+  "url": "https://particuliers.stat-publique.fr",
+  "tests": [{
+    "id": "2c1f24d6-7b49-43b3-9333-9c34e1df6a4e",
+    "name": "Test Insee 250 caractères",
+    "commands": [{
+      "id": "78efb69c-8526-4d61-9db4-fe11eeb4f018",
+      "comment": "",
+      "command": "open",
+      "target": "/eec",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba7093dd-f2ed-4297-a2a5-3f099410ac87",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6441e91-ce83-4cd1-8826-97491eb9a0a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonRepondre",
+      "targets": [
+        ["id=boutonRepondre", "id"],
+        ["css=#boutonRepondre", "css:finder"],
+        ["xpath=//button[@id='boutonRepondre']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[3]/div[2]/div/section/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accéder au questionnaire')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "092dd746-91f6-4777-8bfa-88152acc1e95",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "uwbx8q2"
+    }, {
+      "id": "403674ee-2db8-4f21-9254-77fd31ff9adb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kobeshow225+"
+    }, {
+      "id": "e0c51551-b7fd-4b25-8375-36f420f7d933",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdfd754a-8390-498a-a388-22f7ac17cb90",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "817a975d-f2cf-4211-a0b5-392297b92674",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05ace6c7-0a85-4785-b488-5d4c9eb6a966",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a54dufu"
+    }, {
+      "id": "8d02aa43-334d-45ea-bcaa-30bc9ea26340",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button-insee", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Connexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43126a2-6f11-4fd3-baae-9104f9968c5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.undefined:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.undefined:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Aller à la première page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1f1c5ef-6961-448a-a507-9fcd5b4f65b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Commencer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e47e0404-3a3d-4863-8d3e-4d97629cb3dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#next-button > .MuiButton-label",
+      "targets": [
+        ["css=#next-button > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enregistrer et continuer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ccff44-668f-40c9-a459-028e6f5478f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=lunatic-input-jfazww20",
+      "targets": [
+        ["id=lunatic-input-jfazww20", "id"],
+        ["css=#lunatic-input-jfazww20", "css:finder"],
+        ["xpath=//input[@id='lunatic-input-jfazww20']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "806de7c6-2706-487c-b37a-258705cc8dca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.declaration-lunatic > p",
+      "targets": [
+        ["css=.declaration-lunatic > p", "css:finder"],
+        ["xpath=//div[@id='declarations-jfazww20-AFTER_QUESTION_TEXT']/div/p", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'So close no matter how far couldn’t be much more from the heart forever trust in who we are and nothing else matters <br/> never opened myself this way life is ours, we live it our way all these words I don’t just say and nothing else matters <br/> trust I seek and I find in you every day for us something new open mind for a different view and nothing else matters never cared for what they do never cared for what they know But I know so close no matter how far couldn’t be much more from the heart forever trusting who we are and nothing else matters never cared for what they do never cared for what they know And I know I never opened myself this way life is ours, we live it our way all these words I don’t just say and nothing else matters trust I seek and I find in you every day for us something new open mind for a different view and nothing else matters never cared for what they say never cared for games they play never cared for what they do')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5de6b4f5-e531-44c6-b522-ab7f8aceb5d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=lunatic-input-jfazww20",
+      "targets": [
+        ["id=lunatic-input-jfazww20", "id"],
+        ["css=#lunatic-input-jfazww20", "css:finder"],
+        ["xpath=//input[@id='lunatic-input-jfazww20']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66102dd0-4ceb-4461-bf3a-3001228a7bde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field",
+      "targets": [
+        ["css=.field", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f24d23-ae21-43f0-9f9f-18b7e429c135",
+      "comment": "",
+      "command": "type",
+      "target": "id=lunatic-input-jfazww20",
+      "targets": [
+        ["id=lunatic-input-jfazww20", "id"],
+        ["css=#lunatic-input-jfazww20", "css:finder"],
+        ["xpath=//input[@id='lunatic-input-jfazww20']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "So cl"
+    }, {
+      "id": "4f11ea6f-bd72-4cc4-8f26-bbe866a604db",
+      "comment": "",
+      "command": "click",
+      "target": "css=#next-button > .MuiButton-label",
+      "targets": [
+        ["css=#next-button > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enregistrer et continuer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c57dba45-dc97-4ac5-8210-acb7bdcc865a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=lunatic-textarea-jfazwjyv",
+      "targets": [
+        ["id=lunatic-textarea-jfazwjyv", "id"],
+        ["css=#lunatic-textarea-jfazwjyv", "css:finder"],
+        ["xpath=//textarea[@id='lunatic-textarea-jfazwjyv']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "242.111083984375,27.37152099609375"
+    }, {
+      "id": "60412d7e-55f7-433d-8a9e-a65509e44446",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.field",
+      "targets": [
+        ["css=.field", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "873.111083984375,247.37152099609375"
+    }, {
+      "id": "33923bab-5a89-465d-9ca5-b07d56cf5ebf",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.field",
+      "targets": [
+        ["css=.field", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "873.111083984375,247.37152099609375"
+    }, {
+      "id": "f3fcec81-5a19-43ae-94c8-7b423521fb52",
+      "comment": "",
+      "command": "click",
+      "target": "id=lunatic-textarea-jfazwjyv",
+      "targets": [
+        ["id=lunatic-textarea-jfazwjyv", "id"],
+        ["css=#lunatic-textarea-jfazwjyv", "css:finder"],
+        ["xpath=//textarea[@id='lunatic-textarea-jfazwjyv']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7db12a78-8841-4420-843f-52f3e7863063",
+      "comment": "",
+      "command": "click",
+      "target": "id=lunatic-textarea-jfazwjyv",
+      "targets": [
+        ["id=lunatic-textarea-jfazwjyv", "id"],
+        ["css=#lunatic-textarea-jfazwjyv", "css:finder"],
+        ["xpath=//textarea[@id='lunatic-textarea-jfazwjyv']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42c7688d-f810-452c-83d5-59b480c73f82",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root:nth-child(1) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/footer/button/span", "xpath:idRelative"],
+        ["xpath=//footer/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Retour')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72ead390-6966-48df-8ccb-52b6faa75f69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(1) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/footer/button/span", "xpath:idRelative"],
+        ["xpath=//footer/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Retour')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8384d75-28dc-43ee-8bb8-1c345a6aff37",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButtonBase-root:nth-child(1) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(1) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/footer/button/span", "xpath:idRelative"],
+        ["xpath=//footer/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Retour')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8cc7749-7ffa-40c9-b111-012adf19547f",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=lunatic-textarea-jfazwjyv",
+      "targets": [
+        ["id=lunatic-textarea-jfazwjyv", "id"],
+        ["css=#lunatic-textarea-jfazwjyv", "css:finder"],
+        ["xpath=//textarea[@id='lunatic-textarea-jfazwjyv']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "244.111083984375,23.37152099609375"
+    }, {
+      "id": "98de3e42-75ac-4d88-8aba-9aeb4289d2cf",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.MuiBox-root",
+      "targets": [
+        ["css=.MuiBox-root", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "1218,454"
+    }, {
+      "id": "a65c4b6f-fa06-47fe-8c38-dd40ad8cabf9",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.MuiBox-root",
+      "targets": [
+        ["css=.MuiBox-root", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "1218,454"
+    }, {
+      "id": "7c770ed7-127a-4c03-9110-f94be041d430",
+      "comment": "",
+      "command": "click",
+      "target": "id=lunatic-textarea-jfazwjyv",
+      "targets": [
+        ["id=lunatic-textarea-jfazwjyv", "id"],
+        ["css=#lunatic-textarea-jfazwjyv", "css:finder"],
+        ["xpath=//textarea[@id='lunatic-textarea-jfazwjyv']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdf935e7-63a8-4cfa-99d8-07f70191c7ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=lunatic-textarea-jfazwjyv",
+      "targets": [
+        ["id=lunatic-textarea-jfazwjyv", "id"],
+        ["css=#lunatic-textarea-jfazwjyv", "css:finder"],
+        ["xpath=//textarea[@id='lunatic-textarea-jfazwjyv']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2fa425f-36aa-4afa-b8b5-9a695008dbfe",
+      "comment": "",
+      "command": "type",
+      "target": "id=lunatic-textarea-jfazwjyv",
+      "targets": [
+        ["id=lunatic-textarea-jfazwjyv", "id"],
+        ["css=#lunatic-textarea-jfazwjyv", "css:finder"],
+        ["xpath=//textarea[@id='lunatic-textarea-jfazwjyv']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "So close no matter how far couldn’t be much more from the heart forever trust in who we are and nothing else matters <br/> never opened myself this way life is ours, we live it our way all these words I don’t just say and nothing else matters <br/> trust I seek and I find in you every day for us something new open mind for a different view and nothing else matters never cared for what they do never cared for what they know But I know so close no matter how far couldn’t be much more from the hearuuuuuuuuuuuuuuu"
+    }, {
+      "id": "eaf0e34e-f71d-44d7-bae3-7acb7844a145",
+      "comment": "",
+      "command": "click",
+      "target": "css=#next-button > .MuiButton-label",
+      "targets": [
+        ["css=#next-button > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enregistrer et continuer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2c87d978-ef04-4222-bea9-26bb1565733a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2c1f24d6-7b49-43b3-9333-9c34e1df6a4e"]
+  }],
+  "urls": ["https://particuliers.stat-publique.fr/"],
+  "plugins": []
+}

@@ -1,0 +1,113 @@
+{
+  "id": "6d4bb95e-d986-4399-8223-e58e56d04286",
+  "version": "2.0",
+  "name": "Test Insee",
+  "url": "https://particuliers.stat-publique.fr",
+  "tests": [{
+    "id": "892418f1-409e-4205-9dc3-a53680ac590e",
+    "name": "Test Insee 1.1",
+    "commands": [{
+      "id": "303cabce-8dd0-4d9b-b82e-2c88dc404a1d",
+      "comment": "",
+      "command": "open",
+      "target": "/eec",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14a45950-2ed0-41c8-a6c7-8d6e83d40b46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cb6c88c-7e56-4aa9-b6a8-11f8f9378938",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonRepondre",
+      "targets": [
+        ["id=boutonRepondre", "id"],
+        ["css=#boutonRepondre", "css:finder"],
+        ["xpath=//button[@id='boutonRepondre']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[3]/div[2]/div/section/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accéder au questionnaire')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2457b01d-afb3-4101-b4df-27113433ab3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "uwbx8q2"
+    }, {
+      "id": "b7495b58-969c-4acc-a3f2-27a0458a99ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kobeshow225+"
+    }, {
+      "id": "d7b402f7-c8c2-44c3-a403-add48f288d31",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button-insee", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Connexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a618ba7-5d95-445a-8d76-55fd6e05412c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiBox-root",
+      "targets": [
+        ["css=.MuiBox-root", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b0c7a9b-000a-46b0-8fea-76a41ed301c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiBox-root",
+      "targets": [
+        ["css=.MuiBox-root", "css:finder"],
+        ["xpath=//div[@id='root']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1357fcb5-0b22-4718-99c3-e7dc8e2cfd7c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["892418f1-409e-4205-9dc3-a53680ac590e"]
+  }],
+  "urls": ["https://particuliers.stat-publique.fr/"],
+  "plugins": []
+}

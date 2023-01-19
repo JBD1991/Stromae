@@ -1,0 +1,154 @@
+{
+  "id": "da8bee78-4335-4968-9303-8cf89910c9e1",
+  "version": "2.0",
+  "name": "Test INSEE - Test d'automatisation",
+  "url": "https://particuliers.stat-publique.fr",
+  "tests": [{
+    "id": "caba7d93-150b-455e-897c-b902fe907ffa",
+    "name": "Test 2 - Insee présentation",
+    "commands": [{
+      "id": "b0f41ef3-c456-4e93-b0ab-8c46db2f9626",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3260ba88-09d9-4db7-940b-c946f536b0b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a8f0d88-d5d3-4457-8a60-84f2049bac36",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonRepondre",
+      "targets": [
+        ["id=boutonRepondre", "id"],
+        ["css=.survey-item:nth-child(1) #boutonRepondre", "css:finder"],
+        ["xpath=//button[@id='boutonRepondre']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div[2]/div/section/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a563b682-eaff-43be-bec5-0ffbcbb66544",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonRepondre",
+      "targets": [
+        ["id=boutonRepondre", "id"],
+        ["css=#boutonRepondre", "css:finder"],
+        ["xpath=//button[@id='boutonRepondre']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[3]/div[2]/div/section/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accéder au questionnaire')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df591324-0d1d-4e54-bc33-329cdd108424",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lb9ar4y"
+    }, {
+      "id": "6dff3e2f-b333-4417-b206-57a8ae15d888",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kobeshow225+"
+    }, {
+      "id": "1841d121-7557-4e4c-aa12-cf14c70738d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button-insee", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Connexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f96232b-32ef-49b9-a231-c6e7313c204e",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button-insee", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Connexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa2397c-bba8-43e8-bda5-818e8dab61a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.undefined:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.undefined:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Aller à la première page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80d7d95-b07a-428d-afd5-2976846de9d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Commencer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c18e9ef-8ffc-4fef-823b-3bb056124e8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=main",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//main[@id='main']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "aeefcfde-1fcf-4253-9880-4614504a5771",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["caba7d93-150b-455e-897c-b902fe907ffa"]
+  }],
+  "urls": ["https://particuliers.stat-publique.fr/"],
+  "plugins": []
+}

@@ -1,0 +1,323 @@
+{
+  "id": "da8bee78-4335-4968-9303-8cf89910c9e1",
+  "version": "2.0",
+  "name": "Test INSEE - Test d'automatisation",
+  "url": "https://particuliers.stat-publique.fr",
+  "tests": [{
+    "id": "caba7d93-150b-455e-897c-b902fe907ffa",
+    "name": "Test 2 - Insee présentation",
+    "commands": [{
+      "id": "b0f41ef3-c456-4e93-b0ab-8c46db2f9626",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3260ba88-09d9-4db7-940b-c946f536b0b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a8f0d88-d5d3-4457-8a60-84f2049bac36",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonRepondre",
+      "targets": [
+        ["id=boutonRepondre", "id"],
+        ["css=.survey-item:nth-child(1) #boutonRepondre", "css:finder"],
+        ["xpath=//button[@id='boutonRepondre']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div[2]/div/section/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a563b682-eaff-43be-bec5-0ffbcbb66544",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonRepondre",
+      "targets": [
+        ["id=boutonRepondre", "id"],
+        ["css=#boutonRepondre", "css:finder"],
+        ["xpath=//button[@id='boutonRepondre']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[3]/div[2]/div/section/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accéder au questionnaire')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df591324-0d1d-4e54-bc33-329cdd108424",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lb9ar4y"
+    }, {
+      "id": "6dff3e2f-b333-4417-b206-57a8ae15d888",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kobeshow225+"
+    }, {
+      "id": "1841d121-7557-4e4c-aa12-cf14c70738d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button-insee", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Connexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f96232b-32ef-49b9-a231-c6e7313c204e",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button-insee", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Connexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faa2397c-bba8-43e8-bda5-818e8dab61a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.undefined:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.undefined:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Aller à la première page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80d7d95-b07a-428d-afd5-2976846de9d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Commencer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c18e9ef-8ffc-4fef-823b-3bb056124e8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=main",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//main[@id='main']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f1712ec7-549b-4462-8b18-4e4c7cde5f48",
+    "name": "Test 3 - Insee",
+    "commands": [{
+      "id": "435a3fe8-c024-4b85-97b6-e234c2a6db8d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "704fdfb4-8904-423b-ab93-a06788840346",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c422238-cf64-4499-9236-bec693efd70b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.survey-item:nth-child(1) span",
+      "targets": [
+        ["css=.survey-item:nth-child(1) span", "css:finder"],
+        ["xpath=//button[@id='boutonRepondre']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Emploi, chômage et inactivité')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2972614-f76d-412b-a9d8-2905ae4df67d",
+      "comment": "",
+      "command": "click",
+      "target": "id=boutonRepondre",
+      "targets": [
+        ["id=boutonRepondre", "id"],
+        ["css=#boutonRepondre", "css:finder"],
+        ["xpath=//button[@id='boutonRepondre']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[3]/div[2]/div/section/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accéder au questionnaire')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93aeed58-e47b-40db-8069-ab625b731176",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kobeshow225+"
+    }, {
+      "id": "1f8ee8b5-b33f-4e65-a845-28ca787d2556",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button-insee", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Connexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f48d774-2479-4c88-828d-dfefcdaae5de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.undefined:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.undefined:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Aller à la première page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e2a9c47-3f49-44e3-b90d-e5affa1e89de",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lb9ar4y"
+    }, {
+      "id": "34bfac3a-5746-460e-b8fd-df292a5a5ede",
+      "comment": "",
+      "command": "click",
+      "target": "css=.undefined:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.undefined:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Aller à la première page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3fbab8d-0ac8-45d3-8586-da6785c3691c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Commencer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f9f6964-142d-4eae-a818-f49122aba303",
+      "comment": "",
+      "command": "click",
+      "target": "css=#next-button > .MuiButton-label",
+      "targets": [
+        ["css=#next-button > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enregistrer et continuer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a9ea135-4280-4b98-9852-dca2be8b77fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#next-button > .MuiButton-label",
+      "targets": [
+        ["css=#next-button > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='next-button']/span", "xpath:idRelative"],
+        ["xpath=//footer/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enregistrer et continuer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a695decf-957f-4ac5-8099-cb8cba547d2f",
+    "name": "Test 4 - Basket Usa",
+    "commands": [{
+      "id": "ebd59e20-42a8-4b9a-b0da-bd19d8b5321e",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb7f324c-ff66-4948-a0ab-ef97782703d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf83c165-a1a4-46bd-a4e5-31797876512a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "aeefcfde-1fcf-4253-9880-4614504a5771",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["caba7d93-150b-455e-897c-b902fe907ffa"]
+  }],
+  "urls": ["https://particuliers.stat-publique.fr/"],
+  "plugins": []
+}
